@@ -1,13 +1,15 @@
 # Sample site navigation bar links
 
 - title: Home
-  url: /
-# - title: Posts
-#   url: /posts/
-# - title: Categories
-#   url: /categories/
+  url: /recipes/
+- title: Posts
+  url: /posts/
+- title: Categories
+  url: /categories/
 # - title: Tags
 #   url: /tags/
+- title: My CV
+  url: /cv/
 # - title: Recipes
 #   url: /recipes/
 # - title: Search
