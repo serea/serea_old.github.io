@@ -35,6 +35,35 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+# China (default)
+# -----------------
+cn: &DEFAULT_CN
+  skip_links: "省略链接"
+  skip_primary_nav: "省略到主要链接"
+  skip_content: "省略内容"
+  skip_footer: "省略注脚"
+  menu_label: "菜单"
+  by: "通过"
+  min_read: "最少阅读量"
+  read_more: "最多阅读量"
+  categories: "分类"
+  tags: "标签"
+  pages_categorized: "页面分类"
+  pages_tagged: "页面注释标签"
+  table_of_contents: "主要内容"
+  results_found: "结果发现"
+  share: "分享"
+  tweet: "Tweet"
+  next: "下一个"
+  previous: "上一个"
+  newer: "更新的"
+  older: "更旧的"
+  back_to_top: "从后到前"
+  search_placeholder_text: "输入你要搜索的内容......"
+  powered_by: "赞助商来自"
+zh-CN:
+  <<: *DEFAULT_CN
+
 # Spanish
 # -------
 es: &DEFAULT_ES

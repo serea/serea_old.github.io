@@ -6,13 +6,6 @@ image:
   caption: "以太坊中的庞氏骗局"
 categories:
   - Smart Contract
-  - Edge Case
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
 ---
 
 本文是中山大学发表于 WWW 2018 的工作，文章提出了一种在智能合约创建时检测庞氏骗局的模型。
