@@ -1,5 +1,5 @@
 ---
-title: "区块链论文解读———未知智能合约的逆向": Erays: Reverse Engineering Ethereum's Opaque Smart Contracts
+title: "区块链论文解读———未知智能合约的逆向"
 image: 
   path: /images/recipes/erays/image1.png
   thumbnail: images/recipes/erays/image1.png
