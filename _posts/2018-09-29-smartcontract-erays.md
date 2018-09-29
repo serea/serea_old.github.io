@@ -1,12 +1,12 @@
 ---
-title: "区块链论文解读———未知智能合约的逆向": Erays: Reverse Engineering Ethereum's Opaque Smart Contracts
+title: "区块链论文解读———未知智能合约的逆向"
 image: 
-path: /images/recipes/erays/image1.png
-thumbnail: images/recipes/erays/image1.png
-caption: "未知智能合约的逆向"
+  path: /images/recipes/erays/image1.png
+  thumbnail: images/recipes/erays/image1.png
+  caption: "未知智能合约的逆向"
 categories:
-- Smart Contract
--Reverse
+  - Smart Contract
+  - Reverse
 ---
 
 本文是伊利诺伊大学香槟分校发表于USENIX 2018 的工作，文章提出了一种在逆向分析以太坊上智能合约代码的模型。
