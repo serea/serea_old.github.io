@@ -2,7 +2,7 @@
 title: "生成对抗网络分解———GAN dissection: visualizing and understanding generative adversarial networks"
 image: 
   path: /images/recipes/GAN/image1.jpeg
-  thumbnail: images/recipes/erays/image1.jpeg
+  thumbnail: images/recipes/GAN/image1.jpeg
   caption: "理解生成对抗网络"
 categories:
   - GAN
