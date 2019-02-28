@@ -11,7 +11,7 @@ entries_layout: grid
 
 <img class="profile-picture" src="/images/sly.jpg" width="500" hegiht="313" >
 
-Hi! I am a 3rd year student of Ph.D. candidate Cyberspace Security at University of Chinese Academy of Sciencs, China.
+Hi! I am a 3rd year student of Ph.D. candidate Cyberspace Security at University of Chinese Academy of Sciences, China.
 
 ---
 
@@ -32,13 +32,13 @@ Hi! I am a 3rd year student of Ph.D. candidate Cyberspace Security at University
 ## Achievements and Qualifications
 
 * Won the *11th* on **Big Data and Computing Intelligence Contest** hold by Institute of Computing Technology **2017**
-* Won the *23nd* on **Alibaba Tianchi Security algorithm Competition** **2017**
+* Won the *23rd* on **Alibaba Tianchi Security algorithm Competition** **2017**
 
 
 ## Education
 
 Year | Institute | Major | State
 -----|-------|--------
-2016.09 -- curren | University of Chinese Academy of Sciences (Beijing, China)  | Cyberspace Security | PhD. Candidate
+2016.09 -- current | University of Chinese Academy of Sciences (Beijing, China)  | Cyberspace Security | PhD. Candidate
 2012.09 -- 2016.06 | University of Science and Technology of China (Hefei, China) | Information Security in Computer Science | Graduate
 
