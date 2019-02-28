@@ -25,7 +25,9 @@ Hi! I am a 3rd year student of Ph.D. candidate Cyberspace Security at University
 ## Publications
 
 1. Su L, Yao Y, Li N, et al. **Hierarchical Clustering Based Network Traffic Data Reduction for Improving Suspicious Flow Detection[C]**//2018 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications/12th IEEE International Conference On Big Data Science And Engineering (TrustCom/BigDataSE). IEEE, 2018: 744-753. [paper](https://ieeexplore.ieee.org/abstract/document/8455976/)
-2. Yepeng Yao, Liya Su: **DeepGFL: Deep Feature Learning via Graph for Attack Detection on Flow-based Network Traffic[C]**//2018 Milcom(Accepted)
+2. Yepeng Yao, Liya Su: **DeepGFL: Deep Feature Learning via Graph for Attack Detection on Flow-based Network Traffic[C]**//2018 Milcom. IEEE, 2018: 579-584.
+3. Qiang Li, Yunan Zhang, **Liya Su**, et al. “**An improved method to unveil malware's hidden behavior**” [C]// 2017 International Conference on Information Security and Cryptology. Springer, Cham, 2017: 362-382.
+4. Mingyi Chen, Yepeng Yao, Junrong Liu, **Liya Su**, et al. “**A Novel Approach for Identifying Lateral Movement Attacks Based on Network Embedding**”[C]//2018 ISPA
 
 ## Achievements and Qualifications
 
