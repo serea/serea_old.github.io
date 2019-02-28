@@ -8,4 +8,4 @@ entries_layout: grid
 
 **<center> Welcome!!! </center>**
 
-**<center> Some interesting for you~ </center>**
+**<center> Some interestings for you~ </center>**
