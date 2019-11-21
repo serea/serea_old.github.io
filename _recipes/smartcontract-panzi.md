@@ -1,8 +1,8 @@
 ---
 title: "区块链论文解读———以太坊中的庞氏骗局"
 image: 
-  path: /images/recipes/image1.png
-  thumbnail: /images/recipes/image1.png
+  path: /images/recipes/panzi/image1.png
+  thumbnail: /images/recipes/panzi/image1.png
   caption: "以太坊中的庞氏骗局"
 categories:
   - Smart Contract
@@ -27,7 +27,7 @@ categories:
 
 "你好！我的名字是Rubixi！我是以太坊区块链中新的已验证的金字塔智能合约。当你发给我一个以太时，我会在余额足够时将金额翻倍发回你的地址。我的乘数系数是动态的（最小x1.2最大x3），因此我的支出在未来几个月加速并保证"
 
-![image-center]({{ '/images/recipes/image1.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/panzi/image1.png' | absolute_url }}){: .align-center}
 
 检测基于区块链的庞氏骗局不是一个容易的问题，因为区块链的用户基本上是匿名的。鉴于智能合约由代码组成，可以通过查看源代码来手动检查智能合约是否是庞氏骗局。但是，糟糕的是，智能合约的源代码可能会被隐藏。事实上，只需要字节码就可以在以太坊区块链上实施智能合约。现在有超过一百万个智能合约在以太坊上运行，但只有不到四千个拥有源代码。这意味着不仅隐藏了创造者，而且还隐藏了潜在的智能庞氏骗局的逻辑。这提出了许多挑战：以太坊上有多少智能庞氏骗局？有哪些类型的智能庞氏骗局？它们的特点是什么？智能庞氏骗局的影响力是多少？在回答这些问题之前，要回答的第一个也是最重要的问题是：如何在没有源代码的情况下检测智能庞氏骗局？为了建立一个有效的模型来检测没有源代码的智能庞氏方案，作者提出了的模型。
 
@@ -46,9 +46,9 @@ categories:
 特征情况：
 从数据中提取了交易和代码两类特征。
 
-![image-center]({{ '/images/recipes/image2.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/panzi/image2.png' | absolute_url }}){: .align-center}
 
-![image-center]({{ '/images/recipes/image3.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/panzi/image3.png' | absolute_url }}){: .align-center}
 
 交易特征：
 通过检查Rubixi的以太流量图，可以发现庞氏智能合约中的三个行为特征：1）支付行为通常发生在收益交易之后，表明合约经常支付给已知账户; 2）许多收益交易不跟随支付交易; 3）一些参与者收益交易比支付交易多很多。
@@ -64,7 +64,7 @@ categories:
 代码特征：
 提取所有二进制代码并计算指令频率。在1382个合约执行代码中发现了64个不同的二进制指令。
 
-![image-center]({{ '/images/recipes/image4.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/panzi/image4.png' | absolute_url }}){: .align-center}
 
 模型说明：
 从交易中提取帐户和代码特征，再基于XGBoost的构建分类模型。
@@ -73,12 +73,12 @@ categories:
 
 表2总结了不同特征情况下检测智能庞氏骗局有效性。
 
-![image-center]({{ '/images/recipes/image5.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/panzi/image5.png' | absolute_url }}){: .align-center}
 
 从图中可以清楚地看出，最重要的特征是GASLIMIT，它用于获得块的气体限制。这个结果与普通意义相反，因为对于智能庞氏骗局来说，获得区块的天然气限制是完全没有必要的。为了找到真正的原因，作者选择了Ponzi方案合同的一些源代码，这些合同在其操作代码中具有GASLIMIT。发现这些合同由于导入了oracle API，所以增加了操作码。
 为了估计以太坊上的智能庞氏骗局的数量，之前的研究通过使用两个字节码文件之间的相似性来检测隐藏的智能庞氏骗局（没有源代码的庞氏方案契约）。其中使用字节码相似性方法发现了54个隐藏的智能庞氏骗局。为了验证模型的可靠性，作者根据代码特征预测了这54个隐藏契约。结果显示，54个（83％）合同中有45个是智能庞氏骗局。其余通过人工检测发现并不是真正的庞氏骗局。这些发现表明，与字节码相似性相比，模型在检测智能庞氏方案时更加准确。
 
-![image-center]({{ '/images/recipes/image6.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/panzi/image6.png' | absolute_url }}){: .align-center}
 
 为了估算以太坊上有多少智能庞氏骗局，作者首先下载了2017年5月7日之前创建的所有合约，总共获得了280704份合约。然后提取了这些智能合约的所有操作指令，并使用模型进行预测。模型发现了386个智能庞氏骗局（包括经过验证的）。因此，据估计，2017年5月7日之前，在以太坊平台上运行的智能庞氏骗局将近434个（386倍精确/召回），占所有合约的0.15％。图7示出了具有检测的相应分数（概率）。从图中可以清楚地看出，很多检测到的智能庞氏骗局得分相对较高，表明庞氏骗局的问题比估计的更严重。事实上，在最近的研究中只报告了191个智能庞氏骗局，这远远低于此处估计的数量。
 
