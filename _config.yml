@@ -1,7 +1,7 @@
 remote_theme: "mmistakes/so-simple-theme"
 locale: zh-CN
-title: "Su Liya's Home Page"
-description: "It is really awesome."
+title: "Suliya's Home Page"
+description: "Do awesome job."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://serea.github.io"
 logo: "/images/logo.png"
@@ -88,7 +88,7 @@ defaults:
 
 # Site Author
 author:
-  name: Su Liya
+  name: Suliya
   picture: "/images/serea.jpg"
   email: suliya#iie.ac.cn
   twitter:
@@ -103,4 +103,4 @@ footer_links:
     url: https://github.com/serea
     icon: fab fa-githb-square
 
-copyright: "This site is made with Su Liya."
+copyright: "This site is made with Suliya."
