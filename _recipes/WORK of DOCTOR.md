@@ -2,7 +2,7 @@
 title: "博士期间工作介绍"
 image: 
   path: /images/recipes/DOCTOR/image_1.png
-  thumbnail: /images/recipes/panzi/image_1.png
+  thumbnail: /images/recipes/DOCTOR/image_1.png
   caption: "博士期间工作介绍"
 categories:
   - My Work
@@ -18,9 +18,9 @@ categories:
 
 1. Hierarchical Clustering Based Network Traffic Data Reduction for Improving Suspicious Flow Detection，已发表，TrustCom 2018会议（CCF C类会议），一作；
 
-![image-center]({{ '/images/recipes/panzi/image-20191122094850298.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/DOCTOR/image-20191122094850298.png' | absolute_url }}){: .align-center}
 
-![image-center]({{ '/images/recipes/panzi/image-20191122094937223.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/DOCTOR/image-20191122094937223.png' | absolute_url }}){: .align-center}
 
 
 **问题描述：**网络中的流量数据非常庞大，及时处理依旧会保留大量的数据集；
@@ -37,7 +37,7 @@ categories:
 
 **启发点：**沿着网络流作为一种信息流的传递，使用相邻节点，多跳节点增加对当前节点的认识。
 
-![image-center]({{ '/images/recipes/panzi/image-20191122095038734.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/DOCTOR/image-20191122095038734.png' | absolute_url }}){: .align-center}
 
 
 **因此，**我们提出了深度特征学习的方法来提高对异常流量的发现。在获取每条流量初始特征的基础上，按照网络流的方向即如果是s的考虑流入的flow，与d考虑流出的flow共同运算，s流出发flow与d流入的flow共同运算。主要是原始特征的迭代运算，将运算结果使用决策树模型判断特征的有效性，去掉有效性score < λ的特征。
@@ -49,19 +49,19 @@ categories:
 **启发点：**每个flow考虑短时间内构建的网络拓扑图，发现同类型攻击flow构建的拓扑图具有相似性，graph kernel是一种通过子图的相似性来表达图相似性的方法，因此我们考虑通过graph kernel来表达这种相似性。
 
 
-![image-center]({{ '/images/recipes/panzi/image-20191122075606342.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/DOCTOR/image-20191122075606342.png' | absolute_url }}){: .align-center}
 
 **因此，**我们提出将图核与深度神经网络相结合的异常检测方法。考虑两种将图核特征和原始流量特征在深度神经网络训练过程中的方法，一种在深度神经网络输入端与原始流量特征直接链接输入到深度神经网络中，另一种单独将图核特征和原始特征输入到深度神经网络中训练图核特征的分类能力，在softmax层叠加两个模型的分类结果。
 
-![image-center]({{ '/images/recipes/panzi/image-20191122080038661.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/DOCTOR/image-20191122080038661.png' | absolute_url }}){: .align-center}
 
 4. Understanding the Influence of Graph Kernels on Deep Learning Architecture: A Case Study of Flow-Based Network Attack Detection，已发表，TrustCom 2019会议（CCF C类会议），一作;
 
 进一步理解图核方法在深度学习中所起的作用，从Multi-step Attack 和 Low-intensity Attack两类攻击分析，发现图核有利于捕捉攻击行为在拓扑的空间上的结构一致性和相似性特征。为了增加时间维度上流量的一致性和相关性，尝试将flow按照时间顺序输入到LSTM中，结合kernel做流量异常发现。
 
-![image-center]({{ '/images/recipes/panzi/image-20191122101927385.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/DOCTOR/image-20191122101927385.png' | absolute_url }}){: .align-center}
 
-![image-center]({{ '/images/recipes/panzi/image-20191122101857509.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/recipes/DOCTOR/image-20191122101857509.png' | absolute_url }}){: .align-center}
 
 5. STDeepGraph: Spatial-Temporal Deep Learning on Communication Graphs for Long-Term Network Attack Detection，已发表，TrustCom 2019会议（CCF C类会议），二作;
 
@@ -71,7 +71,9 @@ categories:
 
 ### 大规模的恶意行为分析与测量
 
-（1）在基于区块链技术的以太坊，大规模的发现和分析恶意攻击交易。
+1. 在Ethereum大规模发现dapp的中存在的恶意攻击交易
+
+
 
 ### 其他工作
 
