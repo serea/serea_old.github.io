@@ -7,7 +7,7 @@ entries_layout: grid
 ---
 
 
-## About Me
+## About Me Suliya
 
 <img class="profile-picture" src="/images/sly.jpg" width="500" hegiht="313" >
 
