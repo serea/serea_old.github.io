@@ -72,7 +72,8 @@ collections:
 defaults:
   # CV defaults
   - scope:
-      path: 
+      path:
+      type: pages
     values:
       layout: cv
       share: true
