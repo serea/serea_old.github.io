@@ -71,12 +71,12 @@ collections:
 # Front Matter Defaults
 defaults:
   # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      share: true
+  # - scope:
+  #     path: "_posts"
+  #     type: posts
+  #   values:
+  #     layout: post
+  #     share: true
   # Recipe defaults
   - scope:
       path: "_recipes"
