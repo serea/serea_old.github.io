@@ -3,6 +3,7 @@ title: My CV
 layout: collection
 permalink: /cv/
 collection: cv
+show_excerpts: true
 entries_layout: grid
 ---
 
