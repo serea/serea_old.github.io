@@ -70,6 +70,12 @@ collections:
 
 # Front Matter Defaults
 defaults:
+  # CV defaults
+  - scope:
+      path: 
+    values:
+      layout: cv
+      share: true
   # Posts defaults
   # - scope:
   #     path: "_posts"
@@ -77,14 +83,14 @@ defaults:
   #   values:
   #     layout: post
   #     share: true
-  # Recipe defaults
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      comments: true
-      share: true
+  # # Recipe defaults
+  # - scope:
+  #     path: "_recipes"
+  #     type: recipes
+  #   values:
+  #     layout: post
+  #     comments: true
+  #     share: true
 
 # Site Author
 author:
