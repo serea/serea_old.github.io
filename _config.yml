@@ -2,7 +2,7 @@ remote_theme: "mmistakes/so-simple-theme"
 locale: zh-CN
 title: "Suliya's Home Page"
 description: "Do awesome job."
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "/cv" # the subpath of your site, e.g. "/blog"
 url: "https://serea.github.io"
 logo: "/images/logo.png"
 date_format: "%Y-%m-%d"
