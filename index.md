@@ -1,9 +1,8 @@
 ---
-title: My CV
+title: Suliya's Homepage
 layout: collection
 permalink: /cv/
 collection: cv
-show_excerpts: true
 entries_layout: grid
 ---
 
