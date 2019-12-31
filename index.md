@@ -1,7 +1,7 @@
 ---
 title: Suliya's Homepage
 layout: collection
-permalink: /cv/
+permalink: /
 collection: cv
 entries_layout: grid
 ---
