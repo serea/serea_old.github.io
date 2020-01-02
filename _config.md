@@ -2,7 +2,7 @@ remote_theme: "mmistakes/so-simple-theme"
 locale: zh-CN
 title: "Suliya's Home Page"
 description: "Do awesome job."
-baseurl: "/cv" # the subpath of your site, e.g. "/blog"
+baseurl: "/" # the subpath of your site, e.g. "/blog"
 url: "https://serea.github.io"
 logo: "/images/logo.png"
 date_format: "%Y-%m-%d"
@@ -64,9 +64,9 @@ paginate_path: /page:num/
 
 # Collections
 collections:
-  recipes:
+  blogs:
     output: true
-    permalink: /:cv/
+    permalink: /:blogs/
 
 # Front Matter Defaults
 defaults:
@@ -110,4 +110,4 @@ footer_links:
     url: https://github.com/serea
     icon: fab fa-githb-square
 
-copyright: "This site is made with Suliya."
+copyright: "This site is made by Suliya."
