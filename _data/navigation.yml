@@ -1,16 +1,16 @@
 # Sample site navigation bar links
 
 - title: Home
-  url: /
+  url: /index/
 - title: Blogs
   url: /blogs/
-- title: Categories
-  url: /categories/
 - title: My CV
   url: /CV_Suliya.pdf
 - title: CFP
   url: /cfp/
-  # - title: Tags
+# - title: Categories
+#   url: /categories/
+# - title: Tags
 #   url: /recipes/
 # - title: Posts
 #   url: /posts/
