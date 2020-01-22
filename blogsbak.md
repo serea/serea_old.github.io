@@ -1,6 +1,7 @@
 ---
 title: Blogs
-layout: posts
+layout: home
 permalink: /blogs/
+collection: blogs
 entries_layout: grid
 ---

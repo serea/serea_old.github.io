@@ -1,16 +1,18 @@
 ---
-title: Home Page
-layout: home
-permalink: /index/
+title: My CV
+layout: collection
+permalink: /cv/
+collection: cv
 show_excerpts: true
 entries_layout: grid
 ---
 
-<p style="text-align:center;" >
-<img class="profile-picture" src="/images/sly.jpg" width="500" hegiht="313"></p>
 
-Hi! I am Suliya, a 4rd year student of Ph.D. candidate majored in cyberspace security at University of Chinese Academy of Sciences, China. I achieved my bachelor in USTC.([Education](#education)) I focus on some areas [Research](#research-interest). Here are some [papers](#publications) of my research. I also got some [achievements & qualifications](#achievements-and-qualifications).
+## About Me Suliya
 
+<img class="profile-picture" src="/images/sly.jpg" width="500" hegiht="313" >
+
+Hi! I am a 4rd year student of Ph.D. candidate Cyberspace Security at University of Chinese Academy of Sciences, China.
 
 ---
 
@@ -20,8 +22,6 @@ Hi! I am Suliya, a 4rd year student of Ph.D. candidate majored in cyberspace sec
 * Web Security
 * Graph-Theoretic and its Application to Information Security
 * Smart Contract
-
----
 
 ## Publications
 
@@ -33,14 +33,12 @@ Hi! I am Suliya, a 4rd year student of Ph.D. candidate majored in cyberspace sec
 6. Qiang Li, Yunan Zhang, **Liya Su**, Yang Wu, Xinjian Ma, Zeming Yang. “**An improved method to unveil malware's hidden behavior**” [C]// 2017 International Conference on Information Security and Cryptology. Springer, Cham, 2017: 362-382.
 7. Mingyi Chen, Yepeng Yao, Junrong Liu, Bo Jiang, **Liya Su**, Zhigang Lu. “**A Novel Approach for Identifying Lateral Movement Attacks Based on Network Embedding**”[C]//2018 ISPA
 
----
 
 ## Achievements and Qualifications
 
 * Won the *11th* on **Big Data and Computing Intelligence Contest** hold by Institute of Computing Technology **2017**
-* Won the *23rd* on **Alibaba Tianchi Security algorithm Competition** 2017
+* Won the *23rd* on **Alibaba Tianchi Security algorithm Competition** **2017**
 
----
 
 ## Education
 
@@ -48,3 +46,4 @@ Year | Institute | Major | State
 -----|-------|--------
 2016.09 -- current | University of Chinese Academy of Sciences (Beijing, China)  | Cyberspace Security | PhD. Candidate
 2012.09 -- 2016.06 | University of Science and Technology of China (Hefei, China) | Information Security in Computer Science | Graduate
+

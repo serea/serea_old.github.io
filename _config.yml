@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/so-simple-theme"
+#remote_theme: "mmistakes/so-simple-theme"
 locale: en-US
 github_username: serea
 logo: "/images/logo.png"
@@ -36,27 +36,27 @@ category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
 
 plugins:
-  - jekyll-seo-tag
+#  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-paginate
 
-paginate: 10
-paginate_path: /page:num/
+# paginate: 10
+# paginate_path: /page:num/
 
 # Collections
-collections:
-  cv:
-    output: true
-    permalink: /:cv/
+# collections:
+#   cv:
+#     output: true
+#     permalink: /:cv/
 
 # Front Matter Defaults
 defaults:
   - scope:
-      path: "_index"
-      type:
+      path: "index"
+      type: 
     values:
-      layout: collection
+      layout: "collections"
       share: true
 
 # Site Author
