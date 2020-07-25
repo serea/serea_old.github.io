@@ -1,9 +1,9 @@
 ---
-title: "博士期间工作介绍"
+title: "Works during PHD"
 image: 
   path: /images/recipes/DOCTOR/image1.png
   thumbnail: /images/recipes/DOCTOR/image1.png
-  caption: "博士期间工作介绍"
+  caption: "Works during PHD"
 categories:
   - My Work
 ---
