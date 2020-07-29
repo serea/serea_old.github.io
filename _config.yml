@@ -58,6 +58,13 @@ defaults:
     values:
       layout: "collections"
       share: true
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      commets: true
+      share: true
 
 # Site Author
 author:
